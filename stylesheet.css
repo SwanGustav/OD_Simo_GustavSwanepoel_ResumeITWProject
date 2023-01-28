@@ -1,30 +1,34 @@
 /* Body first, then header and main and footer */
 
-body{font-family: verdana; font-size:110%; background-color: aquamarine; display: flex; flex-direction: column;}
-header{background-color: #61638a;text-align: center;justify-content: center;}
+body{font-family: verdana; font-size:110%; background-color: lightcyan; display: flex; flex-direction: column;}
+header{background-color: black;text-align: center;justify-content: center; margin: -10px; margin-bottom: 10px;}
 main {display: flex; flex-direction: row; overflow: unset;}
-footer {background-color: #61638a; text-align: center;}
+footer {background-color: black; text-align: center; margin: -10px;}
 
 /* now other selectors */
 
+h1 {color: white;}
 h2:hover {color:red}
-h2 {font-size: 30px; background-color: rgb(178, 215, 215); margin: 0px; padding: 10px; border-style: inset; border-color: black; color: green; font-family: 'verdana';}
+h2 {font-size: 30px; background-color: aquamarine; margin: 0px; padding: 10px; border-style: inset; border-color: black; color: green; font-family: 'verdana';}
 h3 {padding: 10px;}
 p {padding: 10px;}
+li {padding-top: 10px; padding-bottom: 10px;}
 
 /* now class and id selectors */
 
-#profilephoto{width: 16%; border-radius: 40%; border: 3px solid blue;}
+#profilePhoto{width: 16%; border-radius: 40%; border: 3px solid white;}
 #heading{font-family: 'verdana'; font-size: 120%;}
+#introduction {color: white;}
 
 #sidebar{width:10%; height: 10%;}
 .nav-menu{list-style-type: none; padding: 10px; margin: 0; border-color: black;}
 
 #education {margin-top: 0px;}
 
-.mySkills {list-style-type: none; padding: 10px; margin: 0;}
+.mySkillsAndInterests {list-style-type: none; padding: 10px; margin: 0;}
 
-#icon1 {width: 5%;
-border-radius: 50%;}
-#gmailIcon {border-radius: 50%; width: 5%}
+#icon1 {width: 5%; border-radius: 50%;}
+#gmailIcon {padding: 9px; width: 5%;}
+#linkedInIcon {width: 5%;}
+#myContactDetails {color: white;}
 
