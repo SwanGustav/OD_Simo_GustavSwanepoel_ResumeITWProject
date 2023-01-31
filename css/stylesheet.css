@@ -1,5 +1,3 @@
-/* Body first, then header and main and footer */
-
 body{
     font-family: verdana; font-size:110%; background-color: lightcyan; 
     display: flex; flex-direction: column;
@@ -14,7 +12,7 @@ footer {
     margin-left: -10px; margin-right: -10px; margin-bottom: -40px;
 }
 
-/* now other selectors */
+/* other selectors */
 
 h1 {color: white;}
 h2:hover {color:red}
@@ -26,14 +24,17 @@ h3 {padding: 10px;}
 p {padding: 10px;}
 li {padding-top: 10px; padding-bottom: 10px;}
 
-/* now class and id selectors */
-/* I added a margin-top to the profile photo so that it is more distinctive and not merging with the top of the webpage */
+/* class and id selectors */
 
+/* I added a margin-top to the profile photo so that it is more distinctive and not merging with the top of the webpage */
 #profilePhoto{
     width: 16%; border-radius: 40%; border: 3px solid white; 
     margin-top: 10px;
 }
+
 #heading{font-family: 'verdana'; font-size: 120%;}
+
+/* padding added to introductory text used to make header stand out and separate when first opening this webpage */
 #introduction1 {color: white; padding-bottom: 30px;}
 #introduction2 {
     color: white; text-align: justify; font-size: medium; 
@@ -47,11 +48,9 @@ li {padding-top: 10px; padding-bottom: 10px;}
 }
 
 #education {margin-top: 0px;}
-
 .mySkillsAndInterests {
     list-style-type: none; padding: 10px; margin: 0;
 }
-
 #gmailIcon {padding: 9px; width: 5%;}
 #linkedInIcon {width: 4.2%; padding-bottom: 7px;}
 #myContactDetails {color: white;}
@@ -71,8 +70,7 @@ li {padding-top: 10px; padding-bottom: 10px;}
 
 /* specific IDs to my two icon links - I removed their hyperlink underlining */
 
-#gmailLink {text-decoration: none;}
-#linkedInLink {text-decoration: none;}
+.iconLink {text-decoration: none;}
 
 /* I ensured the links move smoothly to their destination within the page with the CSS declaration below */
 
