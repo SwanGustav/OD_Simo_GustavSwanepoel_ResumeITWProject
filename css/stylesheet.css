@@ -30,4 +30,6 @@ li {padding-top: 10px; padding-bottom: 10px;}
 #gmailIcon {padding: 9px; width: 5%;}
 #linkedInIcon {width: 4.2%; padding-bottom: 7px;}
 #myContactDetails {color: white;}
+#gmailLink {text-decoration: none;}
+#linkedInLink {text-decoration: none;}
 
