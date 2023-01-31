@@ -9,7 +9,7 @@ header{
 main {display: flex; flex-direction: row; overflow: unset;}
 footer {
     background-color: black; text-align: center; 
-    margin-left: -10px; margin-right: -10px; margin-bottom: -40px;
+    margin-left: -10px; margin-right: -10px; margin-bottom: -60px;
 }
 
 /* other selectors */
@@ -51,30 +51,25 @@ li {padding-top: 10px; padding-bottom: 10px;}
 .mySkillsAndInterests {
     list-style-type: none; padding: 10px; margin: 0;
 }
-#gmailIcon {padding: 9px; width: 5%;}
-#linkedInIcon {width: 4.2%; padding-bottom: 7px;}
 #myContactDetails {color: white;}
 
-/* I added a back to top bottom that stays fixed on the page in the bottom-left corner */
+/* The two icons were not of similar size so I played with values to make them look the same size */
+#gmailIcon {padding: 9px; width: 5%;}
+#linkedInIcon {width: 4.2%; padding-bottom: 7px;}
 
+/* I added a back to top bottom that stays fixed at the bottom-left corner - 
+I did not want to move it with the page, it makes the nav-menu unreadable then, 
+because it hovers over it */
 #toTop {
-    text-decoration: none;
-    padding: 10px 20px;
+    text-decoration: none; padding: 10px 20px; 
     background-color: var(--dark-blue);
-    color: red;
-    font-size: 14px;
-    font-weight: normal;
-    text-decoration: none;
-    border-radius: 20px;
+    color: red; font-size: 14px; font-weight: normal;
+    text-decoration: none; border-radius: 20px;
   }
 
-/* specific IDs to my two icon links - I removed their hyperlink underlining */
-
+/* removed the icons' hyperlink underlining */
 .iconLink {text-decoration: none;}
 
 /* I ensured the links move smoothly to their destination within the page with the CSS declaration below */
-
-html {
-    scroll-behavior: smooth;
-  }
+html {scroll-behavior: smooth;}
 
