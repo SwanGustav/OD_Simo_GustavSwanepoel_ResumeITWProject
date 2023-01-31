@@ -34,11 +34,13 @@ li {padding-top: 10px; padding-bottom: 10px;}
 
 #heading{font-family: 'verdana'; font-size: 120%;}
 
-/* padding added to introductory text used to make header stand out and separate when first opening this webpage */
+/* padding added to introductory text used to make header stand out and separate when first opening this webpage. 
+The use of % instead of px ensured the text remained justified and neat and readable when the webpage window is made smaller.
+*/
 #introduction1 {color: white; padding-bottom: 30px;}
 #introduction2 {
     color: white; text-align: justify; font-size: medium; 
-    padding-left: 400px; padding-right: 400px; padding-bottom: 100px;
+    padding-left: 10%; padding-right: 10%; padding-bottom: 100px;
 }
 
 #sidebar{width:10%; height: 10%;}
@@ -61,10 +63,10 @@ li {padding-top: 10px; padding-bottom: 10px;}
 I did not want to move it with the page, it makes the nav-menu unreadable then, 
 because it hovers over it */
 #toTop {
-    text-decoration: none; padding: 10px 20px; 
+    text-decoration: none; width: fit-content; 
     background-color: var(--dark-blue);
     color: red; font-size: 14px; font-weight: normal;
-    text-decoration: none; border-radius: 20px;
+    border-radius: 20px; padding-top: 30px;
   }
 
 /* removed the icons' hyperlink underlining */
